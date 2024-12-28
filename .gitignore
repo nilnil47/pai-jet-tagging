@@ -1,0 +1,19 @@
+# This tells git what not to track, like log, compiled, or cached files
+*.log
+*.pyc
+__pycache__
+
+*.h5
+plots/
+*.png
+*.eps
+*.svg
+checkpoint
+best.*
+models/
+.vscode/
+plots/
+
+DataLoader.ipynb
+.Ds_Store
+

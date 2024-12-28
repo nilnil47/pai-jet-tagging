@@ -1,0 +1,25 @@
+name: jet-project
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10  # or your desired Python version
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - tables
+  - pyyaml
+  - tabulate
+  - ipywidgets
+  - ipympl
+  - ipykernel
+  - h5py
+  - pip
+  - pydot
+  - pytables
+  - pip:
+      - keras
+      - tensorflow
+      - keras-nlp
+
